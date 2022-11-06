@@ -10,8 +10,10 @@ export const Index = () => {
   // }
 
   return (
-    <div className="flex flex-wrap items-center justify-center bg-[#95CCFF]">
-      <Head />
+    <div className="bg-[#95CCFF]">
+      <div className="flex justify-center">
+        <Head />
+      </div>
       <div>
         <Body />
       </div>
