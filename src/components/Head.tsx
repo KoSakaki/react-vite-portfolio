@@ -1,14 +1,14 @@
 import face from '../assets/imagef.png';
 
 export const Head = () => {
-  const divStyle = {
+  const divStyle:React.CSSProperties = {
     color: 'blue',
     position: 'absolute',
     left: '50%',
     bottom: '5%',
   };
-  const faceImage = {
-    'border-radius': '50% 50%',
+  const faceImage:React.CSSProperties = {
+    borderRadius: '50% 50%',
   }
 
   return (
