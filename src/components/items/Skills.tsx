@@ -5,9 +5,9 @@ export const Skils = () => {
   return (
     <>
       <h1 className="flex justify-center">Skills</h1>
-      <div className="block">
-        {skillSets.map(element => (
-          <h2>{element}</h2>
+      <div className="flex justify-center item-center flex-wrap">
+        {skillSets.map((element, index) => (
+          index===skillSets.length-1 ? <h2>{element} </h2>: <h2>{element},　</h2>
         ))}
       </div>
     </>

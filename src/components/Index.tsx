@@ -14,9 +14,7 @@ export const Index = () => {
       <div className="flex justify-center">
         <Head />
       </div>
-      <div>
-        <Body />
-      </div>
+      <Body />
     </div>
   )
 }

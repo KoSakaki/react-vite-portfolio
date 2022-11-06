@@ -15,7 +15,6 @@ export const Body = () => {
       <Values />
       <Skils />
       <Tasks />
-      <Biography />
     </>
   )
 
