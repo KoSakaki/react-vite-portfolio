@@ -1,8 +1,8 @@
 import '../index.css'
-import {Tasks} from './Tasks'
-import {Skils} from './Skills'
-import {Biography} from './Biography'
-import {Values} from './Values'
+import {Tasks} from './items/Tasks'
+import {Skils} from './items/Skills'
+import {Biography} from './items/Biography'
+import {Values} from './items/Values'
 
 export const Body = () => {
 
@@ -12,18 +12,10 @@ export const Body = () => {
 
   return (
     <>
-      <div >
-        <Values />
-      </div>
-      <div >
-        <Skils />
-      </div>
-      <div>
-        <Tasks />
-      </div>
-      <div>
-        <Biography />
-      </div>
+      <Values />
+      <Skils />
+      <Tasks />
+      <Biography />
     </>
   )
 
