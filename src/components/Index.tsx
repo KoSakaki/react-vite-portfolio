@@ -3,12 +3,14 @@ import {Body} from './Body'
 
 
 export const Index = () => {
-  const container = {
-
-  }
+  // const style: { [key: string]: React.CSSProperties } = {
+  //   container: {
+  //     backgroundColor: '#95CCFF',
+  //   }
+  // }
 
   return (
-    <div style={container}>
+    <div className="flex flex-wrap items-center justify-center bg-[#95CCFF]">
       <Head />
       <div>
         <Body />

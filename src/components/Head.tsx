@@ -9,12 +9,12 @@ export const Head = () => {
       bottom: '5%',
     },
     faceImage: {
-       borderRadius: '50% 50%',
+      borderRadius: '50% 50%',
     }
   }
 
   return (
-    <div className="text-3xl font-bold underline flex justify-center relative">
+    <div className="text-3xl font-bold underline  relative">
       <img src={face} style={style.faceImage} />
       <p className="divStyle" style={style.divStyle}>Koya Sakaki</p>
     </div>
